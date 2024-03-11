@@ -3,7 +3,7 @@
 - Print values: print(value)
 - Strings can be multiplied: print("*" * 10)
 - booleans must be upper case: True / False
-. Scanner in Java: value = input(value) --> Always returns String value
+- Scanner in Java: value = input(value) --> Always returns String value
 > Conversion Types: int(value)
 type(value) returns type of value the input is.
 Value = ''' 
