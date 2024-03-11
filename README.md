@@ -10,6 +10,11 @@ Value = '''
 Values on different lines
 is like this zee.
 '''
+- While loops are able to have an else statement:
+  > while condition:
+  >  code
+  > else
+  >  other code
 
 **Characters**
 - Find Character in string: 
