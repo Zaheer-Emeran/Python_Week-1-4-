@@ -8,9 +8,9 @@
 - type(value) returns type of value the input is.
 
 > - Value = ''' 
-- Values on different lines
-- is like this zee.
-- '''
+> - Values on different lines
+> - is like this zee.
+> - '''
 
 - While loops are able to have an else statement:
   > while condition:
