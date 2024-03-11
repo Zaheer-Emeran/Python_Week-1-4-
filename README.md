@@ -36,6 +36,10 @@ else, method --> methods being value.upper(), function being print()
 value / value = decimal val
 value // value = integer
 value ** value = power
+round(x) --> method used to round numbers
+
+Logical Operators
+- if bool_Val and not bool_Val2 --> means if val1 is true and val1 is false
 
 
 # Python_Week-2
