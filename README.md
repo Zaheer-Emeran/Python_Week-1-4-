@@ -1,22 +1,14 @@
 # Python_Week-1
 **General**
-  Print values: print(value)
-  
-  Strings can be multiplied: print("*" * 10)
-  
-  booleans must be upper case: True / False
-  
-  Scanner in Java: value = input(value) --> Always returns String value
-  
-  Conversion Types: int(value)
-  
-  type(value) returns type of value the input is.
-  
-  Value = ''' 
-  
-  Values on different lines
-  
-  is like this zee.
+Print values: print(value)
+Strings can be multiplied: print("*" * 10)
+booleans must be upper case: True / False
+Scanner in Java: value = input(value) --> Always returns String value
+Conversion Types: int(value)
+type(value) returns type of value the input is.
+Value = ''' 
+Values on different lines
+is like this zee.
 '''
 
 **Characters**
