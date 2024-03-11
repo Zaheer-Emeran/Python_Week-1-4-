@@ -17,6 +17,10 @@ Or
 Value[-1] --> End to start
 print(value[0:3]) --> Displays all characters from 0 to 3
 
+Formatted Strings:
+Java: variable1 + "Random Text" + variable2
+Value = f'{variable1} Random Text {variable2}'
+
 # Python_Week-2
 
 # Python_Week-3
