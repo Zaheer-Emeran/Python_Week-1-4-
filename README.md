@@ -14,11 +14,8 @@
 
 - While loops are able to have an else statement:
   > while condition:
-  > 
-  >  code
-  > 
+  > code
   > else
-  > 
   >  other code
 
 **Characters**
