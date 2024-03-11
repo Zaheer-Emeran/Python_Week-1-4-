@@ -35,6 +35,7 @@ else, method --> methods being value.upper(), function being print()
 **Arithmetic**
 value / value = decimal val
 value // value = integer
+value ** value = power
 
 
 # Python_Week-2
