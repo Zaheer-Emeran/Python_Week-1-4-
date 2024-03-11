@@ -53,8 +53,9 @@ round(x) --> method used to round numbers
 for value in 'Word':
   print (value) --> This would print each value within "Word"
 
-for value in ['Woof' , 'Meow' , 'Human Noises']:
-  print (value) --> This would print each value within the array
+> for value in ['Woof' , 'Meow' , 'Human Noises']:
+>
+> print (value) --> This would print each value within the array
 
 > for value in range (min , max, skip):
 > 
