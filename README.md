@@ -13,7 +13,7 @@ is like this zee.
 
 **Characters**
 - Find Character in string: 
->Value = 'Hallo'
+> Value = 'Hallo'
 >  Value[0] --> Start to end
 >  Or
 >  Value[-1] --> End to start
