@@ -15,9 +15,9 @@ is like this zee.
 - Find Character in string: 
 
 > Value = 'Hallo'
-> Value[0] --> Start to end
-> Or
-> Value[-1] --> End to start
+ Value[0] --> Start to end
+ Or
+ Value[-1] --> End to start
 
 - print(value[0:3]) --> Displays all characters from 0 to 3
 - let(value) --> Produces the total number of characters
