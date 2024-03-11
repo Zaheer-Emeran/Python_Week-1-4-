@@ -57,7 +57,8 @@ for value in ['Woof' , 'Meow' , 'Human Noises']:
   print (value) --> This would print each value within the array
 
 > for value in range (min , max, skip):
- print(value) --> This would repeat the numbers from the min, to the max, skipping every skip value.
+> 
+ > print(value) --> This would repeat the numbers from the min, to the max, skipping every skip value.
 
 
 
