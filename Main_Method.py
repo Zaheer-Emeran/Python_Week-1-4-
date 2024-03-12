@@ -2,7 +2,7 @@
 # if input is not num, return none (1.2,String variable Spam spam spam)
 # if input < 0, return none
 # if input = 0, return 1
-
+#my new changes
 total_Factorial = 1
 user_Input = input("Please input value: ")
 
