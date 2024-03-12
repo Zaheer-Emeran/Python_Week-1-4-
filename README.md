@@ -13,10 +13,10 @@
 - Specific to object = function
 - else, method --> methods being value.upper(), function being print()
 
-> - Value = ''' 
-> - Values on different lines
-> - is like this zee.
-> - '''
+>  Value = ''' <br>
+>  Values on different lines
+>  is like this zee.
+>  '''
 
 ## Loops
 ### While Loops
