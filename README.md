@@ -1,7 +1,7 @@
 # Python_Week-1
 ## Note: 
 - Greyed out text refers to actual code
-- (#) Refers to comments
+- (-->) Refers to comments
 
 ## General
 - Print values: print(value)
