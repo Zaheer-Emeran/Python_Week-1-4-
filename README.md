@@ -1,6 +1,5 @@
 # Python_Week-1
 ## General
-**General**
 - Print values: print(value)
 - Strings can be multiplied: print("*" * 10)
 - booleans must be upper case: True / False
