@@ -14,27 +14,24 @@
 - else, method --> methods being value.upper(), function being print()
 
 >  Value = ''' <br>
->  Values on different lines
->  is like this zee.
+>  Values on different lines <br>
+>  is like this zee. <br>
 >  '''
 
 ## Loops
 ### While Loops
 - While loops are able to have an else statement:
   > while condition:
-    > code
-    > else
-    >  other code
+    > code <br>
+    > else <br>
+    > other code 
   
 ### For Loops
-for value in 'Word':
-print (value) --> This would print each value within "Word"
+> for value in 'Word': <br>
+> print (value) --> This would print each value within "Word" <br>
 > for value in ['Woof' , 'Meow' , 'Human Noises']:
->
 > print (value) --> This would print each value within the array
-
 > for value in range (min , max, skip):
-> 
 > print(value) --> This would repeat the numbers from the min, to the max, skipping every skip value.
 
 ## Chars
