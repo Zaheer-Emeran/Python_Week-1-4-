@@ -1,6 +1,10 @@
 # Python_Week-1
-##### General
-##
+## General
+## Loops
+## Chars
+## Formatted Strings
+## Arithmetic
+## Logical Operators
 - Print values: print(value)
 - Strings can be multiplied: print("*" * 10)
 - booleans must be upper case: True / False
