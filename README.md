@@ -88,7 +88,7 @@ print (value) --> This would print each value within "Word"
 
 ### Challenge 1: Terminal Scribe
 > from tkinter import *
-root = Tk()
+- root = Tk()
 root.title('Zee - Terminal Scribe')
 root.geometry("500x500")
 tech_Container = Canvas(root, width=500, height=500, bg="white")
