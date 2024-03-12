@@ -51,14 +51,14 @@ print (value) --> This would print each value within "Word"
 
 
 ## Formatted Strings
-Java: variable1 + "Random Text" + variable2
-Value = f'{variable1} Random Text {variable2}'
+- Java: variable1 + "Random Text" + variable2
+- Value = f'{variable1} Random Text {variable2}'
 
 ## Arithmetic
-value / value = decimal val
-value // value = integer
-value ** value = power
-round(x) --> method used to round numbers
+- value / value = decimal val
+- value // value = integer
+- value ** value = power
+- round(x) --> method used to round numbers
 
 
 ## Logical Operators
@@ -68,6 +68,21 @@ round(x) --> method used to round numbers
 
 ## Practice Exercises
 ### Practice Exercise 1: Factorial Challenge
+> Take input
+> if input is not num, return none (1.2,String variable Spam spam spam)
+> if input < 0, return none
+> if input = 0, return 1
+> 
+> total_Factorial = 1
+> user_Input = input("Please input value: ")
+> 
+> 
+> if user_Input.isdigit() and user_Input.isdecimal() and int(user_Input) > 0:
+>     for current_Factorial in range(1, int(user_Input) + 1):
+>         total_Factorial = current_Factorial * total_Factorial
+>     print(total_Factorial)
+> else:
+>     print("None")
 
 
 
