@@ -35,14 +35,14 @@ print (value) --> This would print each value within "Word"
 
 > for value in range (min , max, skip):
 > 
- > print(value) --> This would repeat the numbers from the min, to the max, skipping every skip value.
+> print(value) --> This would repeat the numbers from the min, to the max, skipping every skip value.
 
 ## Chars
 - Find Character in string: 
 > - Value = 'Hallo'
 >  - Value[0] --> Start to end
- > - Or
-  > - Value[-1] --> End to start
+> - Or
+> - Value[-1] --> End to start
 - print(value[0:3]) --> Displays all characters from 0 to 3
 - let(value) --> Produces the total number of characters
 - value.find("X") --> returns the first instance of the character within the string 
@@ -64,12 +64,10 @@ round(x) --> method used to round numbers
 ## Logical Operators
 - if bool_Val and not bool_Val2 --> means if val1 is true and val1 is false
 
-**Arithmetic**
-
-**Logical Operators**
 
 
-
+## Practice Exercises
+### Practice Exercise 1: Factorial Challenge
 
 
 
