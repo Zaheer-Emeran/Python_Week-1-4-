@@ -22,9 +22,9 @@
 ### While Loops
 - While loops are able to have an else statement:
   > while condition:
-  > code
-  > else
-  >  other code
+    > code
+    > else
+    >  other code
   
 ### For Loops
 for value in 'Word':
@@ -70,7 +70,7 @@ print (value) --> This would print each value within "Word"
 ### Practice Exercise 1: Factorial Challenge
 > Notes
 > - Take input
-> - if input is not num, return none (1.2,String variable Spam spam spam)
+> - if input is not num, return none (1.2,String variable Spam spam spam):
 > - if input < 0, return none
 > - if input = 0, return 1
 > 
@@ -79,15 +79,24 @@ print (value) --> This would print each value within "Word"
 > user_Input = input("Please input value: ")
 >  
 > if user_Input.isdigit() and user_Input.isdecimal() and int(user_Input) > 0:
-
 >     for current_Factorial in range(1, int(user_Input) + 1):
 >         total_Factorial = current_Factorial * total_Factorial
 >     print(total_Factorial)
 
 > else:
-
 >     print("None")
 
+### Challenge 1: Terminal Scribe
+> from tkinter import *
+root = Tk()
+root.title('Zee - Terminal Scribe')
+root.geometry("500x500")
+tech_Container = Canvas(root, width=500, height=500, bg="white")
+tech_Container.pack(pady=20)
+
+square_Size = input("Input: ")
+tech_Container.create_rectangle(0, 0, square_Size, square_Size, fill="blue")
+root.mainloop()
 
 
 
