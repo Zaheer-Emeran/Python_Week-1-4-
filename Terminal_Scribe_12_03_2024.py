@@ -1,5 +1,5 @@
 from tkinter import *
-
+#this is random code
 root = Tk()
 root.title('Zee - Terminal Scribe')
 root.geometry("500x500")
