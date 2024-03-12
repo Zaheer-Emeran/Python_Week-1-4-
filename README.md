@@ -61,10 +61,10 @@
 - if bool_Val and not bool_Val2 --> means if val1 is true and val1 is false
 
 ## Alternative Number Types
-Base 2 - Binary (0-1)
-Base 8 - Octal (0-7)
-Base 10 - Decimal (0-9)
-Base 16 - Hexadecimal (0-9, A-F)
+Base 2 - Binary (0-1) <br> 
+Base 8 - Octal (0-7) <br>
+Base 10 - Decimal (0-9) <br> 
+Base 16 - Hexadecimal (0-9, A-F) <br>
 
 
 # Python_Week-2
