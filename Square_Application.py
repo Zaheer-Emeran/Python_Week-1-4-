@@ -23,9 +23,9 @@ colour_Of_Squares = [None] * 5
 
 print("Select The Amount of Squares (1,2,3)")
 total_Squares = (input("Square Input: "))
-square_Size = (input("Input Size For Main Square: "))
 
 if total_Squares.isdigit() and int(total_Squares) <= 3:
+    square_Size = (input("Input Size For Main Square: "))
     var = int(square_Size)
     for i in range(0, int(total_Squares)):
         colour_Input_Temp = input(f"Colour Input For Square {i + 1}. (R) Red, (G) Green, (B) Blue: ")
@@ -45,3 +45,4 @@ if total_Squares.isdigit() and int(total_Squares) <= 3:
 
 else:
     print("Invalid Value!")
+
