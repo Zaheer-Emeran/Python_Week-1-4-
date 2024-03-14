@@ -66,22 +66,39 @@ Base 10 - Decimal (0-9) <br>
 Base 16 - Hexadecimal (0-9, A-F) <br>
 
 ## Lists
---> adds 7 to list
 > value_List = [1,2,3,4,5,6] <br>
+
+--> adds 7 to list
 > value_List.append(7) <br>
 
-value_List.insert(7,2) --> inserts 7 at the 3rd position <br>
-value_List.remove(6) --> removes item based on value, not index <br>
-value_List.pop() --> Removes last item in list <br>
-value_List2 = value_List.copy --> copies list <br>
+--> inserts 7 at the 3rd position <br>
+> value_List.insert(7,2) <br>
+
+--> removes item based on value, not index <br>
+> value_List.remove(6) 
+
+--> Removes last item in list <br>
+> value_List.pop() 
+
+--> copies list <br>
+> value_List2 = value_List.copy 
+
 
 # Tuples and Sets
+Sets are random order
+
+--> Removes all redundant data within the list
 > myList = ['b', 'c', 'c'] <br>
 > mySet = list(set(myList)) <br>
 > print(myList) <br> 
 > print(mySet) <br>
-Removes all redundant information
 
+--> Adds element to set
+> set.add()
+--> Removes element to set
+> set.discard()
+
+Tuples are more efficient than lists because they take less memory, but cannot be modified. Useful for large amounts of data
 
 # Python_Week-2
 
