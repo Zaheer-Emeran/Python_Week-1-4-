@@ -84,7 +84,7 @@ Base 16 - Hexadecimal (0-9, A-F) <br>
 > value_List2 = value_List.copy 
 
 
-# Tuples and Sets
+## Tuples and Sets
 Sets are random order
 
 --> Removes all redundant data within the list
@@ -99,6 +99,28 @@ Sets are random order
 > set.discard()
 
 Tuples are more efficient than lists because they take less memory, but cannot be modified. Useful for large amounts of data
+--> Initialize a Tuple. (Access values using same logic as an array)
+> myTuple = ('a','b','c')
+
+## Dictionaries
+--> Initialize Dictionary
+> animamamals = {
+>    'a': "apple", <br>
+    'b': "bananana", <br>
+    'c': "cawwot" <br>
+}
+
+--> Returns all keys within Dictionary
+> animamamals.key()
+
+--> Returns all values within Dictionary
+> animamamals.values()
+
+--> Takes key and returns values within Dictionary
+> animamamals.get(value) 
+
+
+
 
 # Python_Week-2
 
