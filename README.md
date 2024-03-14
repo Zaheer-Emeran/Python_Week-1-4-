@@ -46,6 +46,13 @@
 - value.replace("value 1","not a value") --> replaces the 'value 1' with not a value <br>
 - print('Python' in value) --> this returns boolean if word is in string
 
+## Lists
+value_List = [1,2,3,4,5,6]
+value_List.append(7) --> adds 7 to list
+value_List.insert(7,2) --> inserts 7 at the 3rd position
+value_List.remove(6) --> removes item based on value, not index
+value_List.pop() --> Removes last item in list
+value_List2 = value_List.copy --> copies list
 
 ## Formatted Strings
 - Java: variable1 + "Random Text" + variable2
