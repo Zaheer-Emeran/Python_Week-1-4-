@@ -67,6 +67,7 @@ Base 16 - Hexadecimal (0-9, A-F) <br>
 
 ## Lists
 > value_List = [1,2,3,4,5,6] <br>
+> value_List = list(range(value))
 
 --> adds 7 to list
 > value_List.append(7) <br>
@@ -119,8 +120,18 @@ Tuples are more efficient than lists because they take less memory, but cannot b
 --> Takes key and returns values within Dictionary
 > animamamals.get(value) 
 
+## List Comprehensions
+Its a one line way to make loops and if statements for a lists, instead of going the long way
 
+--> 'item' can be changed to any variable name.
+--> 2 * value multiplies the values by 2,
+--> Order is: Arithmetic, loop, if statement
+> my_List = list(range(value)) <br>
+> filtered_List = [2*item for item in my_Lits if item % 10 == 0]
 
+--> Split string into separate words based on specified character
+> value = 'Hallo my good sir, how do you be doing?'
+> print(value.split(values))
 
 # Python_Week-2
 
