@@ -66,9 +66,10 @@ Base 10 - Decimal (0-9) <br>
 Base 16 - Hexadecimal (0-9, A-F) <br>
 
 ## Lists
+--> adds 7 to list
 > value_List = [1,2,3,4,5,6] <br>
 > value_List.append(7) <br>
---> adds 7 to list
+
 value_List.insert(7,2) --> inserts 7 at the 3rd position <br>
 value_List.remove(6) --> removes item based on value, not index <br>
 value_List.pop() --> Removes last item in list <br>
