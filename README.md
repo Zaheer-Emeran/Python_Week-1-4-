@@ -134,6 +134,42 @@ Its a one line way to make loops and if statements for a lists, instead of going
 > print(value.split(values))
 
 # Python_Week-2
+## Functions
+format: <br>
+def functionName(parameters): <br>
+  code <br>
+  return --> if function needs to return a particular value <br>
+
+### *args
+*args would allow a user to input any variables within the parameters of a function <br>
+> def function_Name(*args):
+>   print(args)
+> 
+> function_Name(1,2,3)
+> 
+> output: (1,2,3)
+Note when using this: <br>
+"By adding the asterisk before args, Python understands that the variable name is just a reference to the arguments being passed in. This trick works only for positional arguments, not keyword arguments. If a keyword argument is passed in, an "unexpected keyword argument" error will occur."
+
+### **kwargs (Keywords)
+- Arguments are stored as a dictionary insead of tuple <br>
+- Takes in the key plus the value of the element in a Dictionary <br>
+> def function_Name(*args, **kwargs): <br>
+> print(args) <br> 
+> print(kwargs) <br>
+>
+> function_Name(1,2,3, operation='sum') <br>
+
+> def function_Name(*args, operation='sum'): <br>
+> if operation == 'sum': <br> 
+>   return sum(args) <br>
+> if operation == 'multiply':
+>  return math.prod(args)
+
+> function_Name(1,2,3,7,8, operation='sum')
+> Output: 27
+
+
 
 # Python_Week-3
 
