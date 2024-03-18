@@ -187,6 +187,10 @@ The expression is written as follows: variable = lambda parameters: expression <
 > age_Check = lambda age: True if age >= 18 else False <br>
 > print(age_Check(18)) 
 
+### Timed Variables
+> print("Printed immediately.") <br>
+> time.sleep(2.4)
+> print("Printed after 2.4 seconds.")
 
 
 
