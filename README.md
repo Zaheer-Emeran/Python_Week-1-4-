@@ -169,7 +169,23 @@ Note when using this: <br>
 > function_Name(1,2,3,7,8, operation='sum')
 > Output: 27
 
+### Text Processing in Python
+Various string modification methods within Python
+> text = "Insert Text Here"
+> punctuations = [',' , '.' , '*']
+> text.loewr()
+> text = text.replace(punctuation, '')
+> text = text.replace('\n' , ' ')
+> ' '.join([word for word in text.split() if len(word) > 3]) --> will remove short words
 
+### Lambda
+The expression is written as follows: variable = lambda parameters: expression
+> double = lambda x:x * 2
+> multiply = lambda x, y: x * y
+> add = lambda x, y, z: x + y + z
+> full_Name = lambda first_Name, last_Name: first_Name + " " + last_Name
+> age_Check = lambda age: True if age >= 18 else False
+> print(age_Check(18))
 
 # Python_Week-3
 
