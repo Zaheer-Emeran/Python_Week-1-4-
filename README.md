@@ -192,6 +192,60 @@ The expression is written as follows: variable = lambda parameters: expression <
 > time.sleep(2.4)
 > print("Printed after 2.4 seconds.")
 
+### Classes
+A static variable in a class is something that would not change at all at all.
+Its a variable that is assigned within the class. <br>
+Static Variables should be altered with Get and Set methods <br>
+
+Creating a class is written as follows: <br>
+> class wordSet: <br>
+> def __init__(self): <br>
+> self.words = set() <br>
+>
+> def addText(self,text): <br>
+> text = Wordset.cleanText(text) <br>
+> fot word in text.split(): <br>
+> self.words.add(word) <br>
+>
+> def cleanText(text): <br>
+> text = text.replace("!", '') --> replacing special characters with a space <br> 
+> return text.lower() <br>
+>
+> wordSet = WordSet()
+> wordSet.addText("Insert Text Here")
+> wordSet.addText("Insert Other Text, Here!")
+
+### Decorator
+Written using the @ operator <br>
+It allows the function to bypass using the self argument
+
+> class wordSet: <br>
+> replacePuncs = [Insert Special Characters Here]
+> def __init__(self): <br>
+> self.words = set() <br>
+>
+> def addText(self,text): <br>
+> text = Wordset.cleanText(text) <br>
+> fot word in text.split(): <br>
+> self.words.add(word) <br>
+>
+> def cleanText(text): <br>
+>  for punc in WordSet.replacePuncs <br>
+>  text = text.replace(punc, '') --> replacing special characters with a space <br> 
+> return text.lower() <br>
+>
+> wordSet = WordSet()
+> wordSet.addText("Insert Text Here")
+> wordSet.addText("Insert Other Text, Here!")
+
+### Class Inheritence
+> class Class_Name:
+> code
+>
+> class Instanced_Class(Class_Name)
+
+
+
 
 
 
