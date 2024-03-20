@@ -243,6 +243,20 @@ It allows the function to bypass using the self argument
 > code
 >
 > class Instanced_Class(Class_Name)
+>
+### Try/Except 
+> try:
+> code
+> except: Exception as e:
+> print(type(e))
+>
+Adding the "finally" keyword within the Try/Except logic would always run the code when the try and catch method is reached
+> try:
+> code
+> except: Exception as e:
+> print(type(e))
+> finally:
+> print("This could will always run")
 
 
 
