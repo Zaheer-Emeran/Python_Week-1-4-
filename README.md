@@ -234,37 +234,88 @@ It allows the function to bypass using the self argument
 >  text = text.replace(punc, '') --> replacing special characters with a space <br> 
 > return text.lower() <br>
 >
-> wordSet = WordSet()
-> wordSet.addText("Insert Text Here")
-> wordSet.addText("Insert Other Text, Here!")
+> wordSet = WordSet() <br>
+> wordSet.addText("Insert Text Here") <br>
+> wordSet.addText("Insert Other Text, Here!") <br>
 
 ### Class Inheritence
-> class Class_Name:
-> code
+> class Class_Name: <br>
+> code <br> 
 >
-> class Instanced_Class(Class_Name)
+> class Instanced_Class(Class_Name) <br>
 >
 ### Try/Except 
-> try:
-> code
-> except: Exception as e:
-> print(type(e))
+> try: <br>
+> code <br>
+> except: Exception as e: <br>
+> print(type(e)) <br>
 >
-Adding the "finally" keyword within the Try/Except logic would always run the code when the try and catch method is reached
-> try:
-> code
-> except: Exception as e:
-> print(type(e))
-> finally:
-> print("This could will always run")
-
-
-
-
+Adding the "finally" keyword within the Try/Except logic would always run the code when the try and catch method is reached. <br> 
+> try: <br>
+> code <br>
+> except: Exception as e: <br>
+> print(type(e)) <br>
+> finally: <br>
+> print("This could will always run") <br>
 
 
 # Python_Week-3
+### Exception Handling (cont...)
+Exceptions must be explicit <br>
+Think of it like an if statement Zee <br>
+List of Exceptions: <br>
+- **AssertionError**      : Raised when an assert statement fails.
+- **AttributeError**      :	Raised when attribute assignment or reference fails.
+- **EOFError**            :	Raised when the input() function hits end-of-file condition.
+- **FloatingPointError**  :	Raised when a floating point operation fails.
+- **GeneratorExit**       :	Raise when a generator's close() method is called.
+- **ImportError**         :	Raised when the imported module is not found.
+- **IndexError**          :	Raised when the index of a sequence is out of range.
+- **KeyError**            :	Raised when a key is not found in a dictionary.
+- **KeyboardInterrupt**   :	Raised when the user hits the interrupt key (Ctrl+C or Delete).
+- **MemoryError**         :	Raised when an operation runs out of memory.
+- **NameError**           : Raised when a variable is not found in local or global scope.
+- **NotImplementedError** :	Raised by abstract methods.
+- **OSError**             :	Raised when system operation causes system related error.
+- **OverflowError**       :	Raised when the result of an arithmetic operation is too large to be represented.
+- **ReferenceError**      :	Raised when a weak reference proxy is used to access a garbage collected referent.
+- **RuntimeError**        :	Raised when an error does not fall under any other category.
+- **StopIteration**       :	Raised by next() function to indicate that there is no further item to be returned by iterator.
+- **SyntaxError**         :	Raised by parser when syntax error is encountered.
+- **IndentationError**    :	Raised when there is incorrect indentation.
+- **TabError**            :	Raised when indentation consists of inconsistent tabs and spaces.
+- **SystemError**         :	Raised when interpreter detects internal error.
+- **SystemExit**          :	Raised by sys.exit() function.
+- **TypeError**           :	Raised when a function or operation is applied to an object of incorrect type.
+- **UnboundLocalError**   :	Raised when a reference is made to a local variable in a function or 
+  method, but no value has been bound to that variable.
+- **UnicodeError**        :	Raised when a Unicode-related encoding or decoding error occurs.
+- **UnicodeEncodeError**  :	Raised when a Unicode-related error occurs during encoding.
+- **UnicodeDecodeError**    :	Raised when a Unicode-related error occurs during decoding.
+- **UnicodeTranslateError** :	Raised when a Unicode-related error occurs during translating.
+- **ValueError**            :	Raised when a function gets an argument of correct type but improper value.
+- **ZeroDivisionError**     :	Raised when the second operand of division or modulo operation is zero.
 
-# Python_Week-4
+
+> try
+> Exception Code
+> except:
+> other code --> can use keywords such as pass, which continues the code, continue, which would continue a loop, etc.
+
+Best Practices for Exceptions:
+> import logging <br>
+> try: <br>
+> code <br>
+> except ValueError as e <br>
+> code(e) <br>
+> except ZeroDivisionError as e <br>
+> pass <br>
+> except Exception as e: <br>
+> logging.exception(e) --> This could be for instance the time the program ran this
+
+
+
+
+# Python_Week-4 
 
 
