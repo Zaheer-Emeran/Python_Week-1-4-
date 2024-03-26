@@ -367,7 +367,11 @@ Random_Number_Guesser()
 
 
 ### Opening, Reading and Writing
+#### Reading Files
 Make sure you always close the file after opening it! <br>
+If you write to a txt file that doesn't exist, the program will create the file. <br>
+If you write to a txt file that does existm, it will overwrite the data within it. 
+
 > f = open('test.txt','r') --> r = read, w = write, a = append <br>
 > print(f.mode) <br>
 > f.close() <br>
@@ -383,13 +387,20 @@ This is mostly useful for if you have a small set of data within the file <br>
 > f_Contents = f.readline() --> This would produce the first line in txt. Every time this code runs, it would go to the next line.
 > print(f_Contents)
 
+> f_Contents = f.read(100) --> Will return first 100 characters in line
+
 In order to loop through a large collection of data within a txt file:
 > for line in f: --> This would loop through every line within the text file and would, for now, display each line.
 > print(line, end='')
 
+> f.seek(0) --> This would change the position of the current file reference so to say
 
+#### Writing Files
+> with open(''test2.txt','w') as f:
+> f.write('Test')
 
-
+### CSV
+### JSON Files
 
 
 
