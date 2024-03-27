@@ -457,8 +457,21 @@ class:
         pass # Test Code
 
 For a stub code GUI class:
+class:
 
+    from tkinter import *
+    from tkinter import ttk
 
+    class Class_Name
+        def __init__(self, root):
+            pass # This is where the brogrammer would build the GUI.
+            # Please specifiy here in comments exactly what the GUI would do
+
+    if __name__ == '__main__':
+        root = Tk()
+        app = DailyDigestGUI(root)
+        root.mainloop()
+            
 # Python_Week-4 
 
 
