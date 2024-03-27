@@ -402,6 +402,10 @@ In order to loop through a large collection of data within a txt file:
 ### CSV
 ### JSON Files
 
+### 3 General Applications that could be built using Python
+- An Application that would play sound effects after a button is pressed through a virtual mic to provide a comedic effect whilst playing games with friends,
+- An Application that would basically be a glorified personalized to-do list,
+- An Application that would allow you to set presets for your alarm clock. (This would be for individuals who require an array of alarms in order to wake up, but turning all of the alarms on and off is a hassle.)
 
 
 
