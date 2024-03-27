@@ -407,8 +407,56 @@ In order to loop through a large collection of data within a txt file:
 - An Application that would basically be a glorified personalized to-do list,
 - An Application that would allow you to set presets for your alarm clock. (This would be for individuals who require an array of alarms in order to wake up, but turning all of the alarms on and off is a hassle.)
 
+## User Stories
+Follows a general structure of: 
+- Type of User
+- Goal of the program
+- Reason for the program
+
+User stories are brief, simple, and informal, perfect for jotting down on index cards. <br> 
+They typically follow the format "As a [user/role], I want [goal] so that [reason/benefit]". <br>
+User Stories covers the general reasons why the program should be created.
+
+## Use Cases
+Follows a general structure of: 
+- Title of the Project
+- Who the target audience is
+- How the project would be accomplished
+
+The scenario can be written as a paragraph or a list of steps in simple language. <br>
+This generally covers who, what and how a goal should be achieved.
+
+## Project Requirements
+Functional requirements describe what the application should or should not do and are written as sentences starting with "the application must, will, etc" <br>
+Should omit specific details, meaning it is required to be straightforward.
 
 
+## Architecture
+This is when you would look for:
+- Requirements, 
+- Use Cases,
+- User Stories,
+- Identifying nouns in order to determine what are the types of classes and objects that would be required within the program.
+- - This is done by groupin grelated nouns together, such as content, email, etc.
+- Creating simplified verbs is a good way to determine the behaviours and responsibilities within the program, along with the names of the functions, etc.    
+ 
+## Stub Code
+This refers to creating the general skelton of a program. It includes creating empty classes and functions, and allowing the brogrammer to visualize what needs to be coded.
+
+The general structure of Stub Code is: <br>
+class:
+
+    class Class_Name:
+        def __init__(self):
+            pass
+        def funcky1(self):
+            pass
+        def funcky2(self):
+            pass
+    if __name__ == '__main__':
+        pass # Test Code
+
+For a stub code GUI class:
 
 
 # Python_Week-4 
