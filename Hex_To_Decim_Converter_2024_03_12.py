@@ -10,7 +10,6 @@ import numpy as np
 
 hex_Letters = ["A", "B", "C", "D", "E", "F"]
 hex_Numbers = [10, 11, 12, 13, 14, 15]
-print(hex_Letters[0])
 
 user_Input = input("Please Enter A Hexadecimal Number To Be Converted Into Decimal: ").upper()
 # separated_Input = [None] * user_Input.__sizeof__()

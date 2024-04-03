@@ -37,7 +37,7 @@ for i in range(0, 20):
         print("System is Down ;-;")
         break
 
-print(456 % 6)
+# print(456 % 6)
 
 # Dont forget to modify this code Zee
 #         print(output_Message(percentage_Decider()))
