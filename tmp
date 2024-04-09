@@ -1,7 +1,0 @@
-# Take Input
-# Loop through for length of input
-# Must be greater than 1
-# Must be divisible by itself to get 1
-# Must be divisible by 1
-
-user_Input = input()
